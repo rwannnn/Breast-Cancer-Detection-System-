@@ -64,10 +64,10 @@ Mass Shape, Mass Margins, Calcification Type, Calcification Distribution, Pathol
 
 ## 🖼️ Detection Output Samples
 <p align="center">
-  <img width="600" src="results/simple_model_detection.png" alt="Binary Model Detection Example">
+  <img width="600" src="simpleeee.PNG" alt="Binary Model Detection Example">
 </p>
 <p align="center">
-  <img width="600" src="results/multitask_prediction.png" alt="Multi-task Prediction Example">
+  <img width="600" src="detaileddd.PNG" alt="Multi-task Prediction Example">
 </p>
 <p align="center">
   <img width="600" src="results/diagnostic_report.png" alt="Diagnostic Summary Report">
