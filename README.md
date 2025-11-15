@@ -1,16 +1,5 @@
 # ⬡ Breast Cancer Detection System
 🩺 **Deep Learning for Early & Accurate Mammography Diagnosis**
-
-<p align="center">
-  <img src="assets/banner.png" alt="Breast Cancer Detection System Banner" width="800">
-</p>
-
-[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-[![Keras](https://img.shields.io/badge/Keras-2.x-red?logo=keras&logoColor=white)](https://keras.io/)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-lightgrey?logo=opencv&logoColor=white)](https://opencv.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
 An AI-powered system designed to detect breast cancer and generate comprehensive diagnostic predictions from mammography images.
 
 The project includes two integrated models:  
