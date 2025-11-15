@@ -1,19 +1,102 @@
-🩺 Breast Cancer Detection – Deep Learning Project
+# ⬡ Breast Cancer Detection System
+🩺 **Deep Learning for Early & Accurate Mammography Diagnosis**
 
-Two-model system for classification and full diagnostic reporting using the CBIS-DDSM dataset
+<p align="center">
+  <img src="assets/banner.png" alt="Breast Cancer Detection System Banner" width="800">
+</p>
 
-This repository contains my graduation project from the Faculty of Computers and Artificial Intelligence, Helwan University.
-The project presents two complementary deep learning models built to assist radiologists in early breast cancer detection and diagnostic reporting.
-📌 Project Summary
+[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Keras](https://img.shields.io/badge/Keras-2.x-red?logo=keras&logoColor=white)](https://keras.io/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-lightgrey?logo=opencv&logoColor=white)](https://opencv.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-The system consists of:
+An AI-powered system designed to detect breast cancer and generate comprehensive diagnostic predictions from mammography images.
 
-1️⃣ Simple Binary Classification Model
+The project includes two integrated models:  
+- **Binary Classification Model** → Detects cancerous vs. non-cancerous cases  
+- **Multi-Task Diagnostic Model** → Predicts 10 clinical attributes to assist radiologists with detailed interpretation  
 
-Predicts:
+Developed as my graduation project at the Faculty of Computers & Artificial Intelligence, Helwan University.
 
-Cancer Present
+---
 
-Cancer Absent
+## 🚀 Key Features
 
-Built using multiple pretrained architectures, with Xception selected as the final model.
+### 🔍 Cancer Detection (Binary)
+Identifies whether a mammogram indicates cancer or not.
+
+### 🧠 Multi-Task Medical Diagnosis
+Predicts 10 diagnostic labels including:
+- Mass Shape
+- Mass Margins
+- Calcification Type
+- Calcification Distribution
+- Pathology
+- Breast Density
+- Breast Side
+- Image View
+- Abnormality ID
+- Abnormality Type
+
+### 📈 Backbone Comparison
+Evaluated **ResNet50, Xception, InceptionV3, DenseNet121** —  
+**Xception** outperformed all models and was selected for both stages.
+
+### 🖼️ Detection Visualization
+Includes image samples, predicted labels, and full diagnostic summaries.
+
+### 🧹 Complete Preprocessing Pipeline
+ROI extraction, filtering, enhancement, normalization, and augmentation.
+
+---
+
+## 📊 Model Performance
+
+### 1️⃣ Simple Binary Classification Model
+
+| Model       | Accuracy | Precision | Recall | F1-score | Training Speed |
+|------------|----------|-----------|--------|----------|----------------|
+| ResNet-50  | 0.84     | 0.42      | 0.50   | 0.46     | Fast           |
+| Xception   | 0.96     | 0.95      | 0.92   | 0.93     | Moderate       |
+| InceptionV3| 0.96     | 0.95      | 0.90   | 0.93     | Slow           |
+| DenseNet121| 0.96     | 0.95      | 0.92   | 0.93     | Very Slow      |
+
+**👉 Xception selected for best stability, accuracy, and training speed.**
+
+### 2️⃣ Multi-Task Diagnostic Model (10 Outputs)
+Predicts the following clinical features simultaneously:  
+
+Mass Shape, Mass Margins, Calcification Type, Calcification Distribution, Pathology, Breast Density, Left/Right Breast, Image View (CC/MLO), Abnormality ID, Abnormality Type  
+
+**➡️ Xception achieved the highest accuracy across all output heads and was chosen as the final diagnostic model.**
+
+---
+
+## 🖼️ Detection Output Samples
+<p align="center">
+  <img width="600" src="results/simple_model_detection.png" alt="Binary Model Detection Example">
+</p>
+<p align="center">
+  <img width="600" src="results/multitask_prediction.png" alt="Multi-task Prediction Example">
+</p>
+<p align="center">
+  <img width="600" src="results/diagnostic_report.png" alt="Diagnostic Summary Report">
+</p>
+
+---
+
+## 🧰 Tech Stack
+
+| Component              | Technology                        |
+|-----------------------|----------------------------------|
+| Deep Learning          | TensorFlow, Keras                |
+| Backbone Architectures | Xception, ResNet50, InceptionV3, DenseNet121 |
+| Image Processing       | OpenCV, NumPy                     |
+| Visualization          | Matplotlib, Seaborn               |
+| Development Environment| Python, Jupyter Notebook          |
+
+---
+
+## 📂 Folder Structure
+
