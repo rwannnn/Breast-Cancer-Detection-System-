@@ -64,13 +64,13 @@ Mass Shape, Mass Margins, Calcification Type, Calcification Distribution, Pathol
 
 ## 🖼️ Detection Output Samples
 <p align="center">
-  <img width="600" src="simpleeee.PNG" alt="Binary Model Detection Example">
+  <img width="600" src="MultiClassfication.jpeg" alt="Binary Model Detection Example">
 </p>
 <p align="center">
-  <img width="600" src="detaileddd.PNG" alt="Multi-task Prediction Example">
+  <img width="600" src="BinaryClassfication.jpeg" alt="Multi-task Prediction Example">
 </p>
 <p align="center">
-  <img width="600" src="results/diagnostic_report.png" alt="Diagnostic Summary Report">
+  <img width="600" src="REPORT.jpeg" alt="Diagnostic Summary Report">
 </p>
 
 ---
@@ -86,6 +86,3 @@ Mass Shape, Mass Margins, Calcification Type, Calcification Distribution, Pathol
 | Development Environment| Python, Jupyter Notebook          |
 
 ---
-
-## 📂 Folder Structure
-
