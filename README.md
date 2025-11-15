@@ -166,4 +166,4 @@ The mobile app communicates with a **Flask RESTful API** that exposes trained AI
 
 **This integration allows patients to receive AI-powered breast cancer diagnostics on their mobile devices, complete with detailed reports and a user-friendly interface.**
 
-### 👩‍💻 Developed by [Rwan Ezzat](https://www.linkedin.com/in/rwan-ezzat-87128827a/) 
+### 👩‍💻 Developed by [Rawan Ezzat](www.linkedin.com/in/rawan-ezzat-87128827a) 
